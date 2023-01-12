@@ -5,10 +5,10 @@ Will print every artist and albums.
 
 
 ## Instructions  
-cd ~
-mkdir ws
-git clone https://github.com/dgonmt/musiccrud.git
-cd musiccrud
+cd ~  
+mkdir ws  
+git clone https://github.com/dgonmt/musiccrud.git  
+cd musiccrud  
 curl -L  https://gist.github.com/miwashiab/e39a3228f0b389b6f3eca1b8c613bb2e/raw/db.sql -o db.sql
 
 ## TODO  
