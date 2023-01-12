@@ -27,7 +27,7 @@ public class App {
         for (Artist artist : artists) {
             System.out.println(artist.getAlbums());
         }
-        
+
 
     }
 
