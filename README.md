@@ -16,5 +16,5 @@ curl -L  https://gist.github.com/miwashiab/e39a3228f0b389b6f3eca1b8c613bb2e/raw/
 2) Assuming the container name is iths-mysql, run:  
 	docker exec -i ihts-mysql mysql -uroot -proot < db.sql  
 	docker exec -i iths-mysql mysql -uroot -proot <<< "GRANT INSERT, SELECT, UPDATE, DELETE ON Chinook.* to 'iths'@'%';"
-3) To run the app and print artists and albums, run:
+3) To run the app and print artists and albums, run:  
 	gradle run
