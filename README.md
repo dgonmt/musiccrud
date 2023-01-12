@@ -1,6 +1,8 @@
 # musiccrud
 A simple ORM-app is creating Artist-objects from MYSQL-database.
 Will print every artist and albums.
+  
+    
 
 
 
